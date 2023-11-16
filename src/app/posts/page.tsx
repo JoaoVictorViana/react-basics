@@ -1,6 +1,6 @@
 'use client'
 
-import { Table } from '@/components/Table'
+import { TablePosts } from '@/components/TablePosts'
 
 export default function Posts() {
   return (
@@ -8,7 +8,7 @@ export default function Posts() {
       
       <h1 className="text-3xl font-bold text-primary-700 text-center my-10">Listagem de posts</h1>
     
-      <Table />
+      <TablePosts />
     </div>
   )
 }
